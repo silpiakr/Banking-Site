@@ -3,9 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    
+    <header>
+        <h1 class="text-5xl font-medium text-center">Welcome To <span class="font-bold text-yellow-300 mt-16"> Bank Website</span></h1>
+    </header>
+    <main>
+        <!-- deposite section_____________________ -->
+        <section class="mt-12 mb-6 ms-52">
+            <div class="grid grid-cols-3 gap-4 w-9/12 text-white">
+                <div class="bg-green-400 p-8 rounded-xl">
+                    <h4 class="text-2xl ">Deposite</h4>
+                    <h2 id="" class="text-5xl mt-5">$<span id="dps-total">00</span></h2>
+                   </div>
+                <div class="bg-red-400 p-8 rounded-xl">
+                    <h4 class="text-2xl ">Withdrow</h4>
+                    <h2 class="text-5xl mt-5">$<span id="total-withdrow">00</span></h2>
+                </div>
+                <div class="bg-violet-400 p-8 rounded-xl">
+                    <h4 class="text-2xl ">Balance</h4>
+                    <h2 class="text-5xl mt-5">$<span id="balance-field">10000</span></h2>
+                </div>
+                </div>
+        </section>
 </body>
 </html>
